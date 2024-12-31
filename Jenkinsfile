@@ -38,7 +38,7 @@ pipeline {
             }
         }
 
-        stage('end-to-end tests (e2e)'){ {
+        stage('end-to-end tests (e2e)'){ 
             agent {
                 docker {
                     image 'mcr.microsoft.com/playwright:v1.49.1-noble'
