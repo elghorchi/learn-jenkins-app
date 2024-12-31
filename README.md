@@ -21,6 +21,15 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
+### The build folder is ready to be deployed.
+You may serve it with a static server:
+
+### `npm install -g serve`
+if we try to run this in jenkins we will get an error because we not habe the permissions 
+so we will run npm install serve ( not globalt)
+and then we run this cmd directly node_modules/.bin/serve -s build
+### `serve -s build`
+
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
