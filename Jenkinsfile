@@ -79,8 +79,8 @@ pipeline {
             steps {
                 sh '''
                     echo "Deploying to production"
-                    npm install -g netlify-cli
-                    netlify --version
+                    npm install  netlify-cli
+                    node_modules/.bin/netlify --version
                 '''
             }
         }
