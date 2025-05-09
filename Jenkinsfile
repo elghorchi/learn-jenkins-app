@@ -157,7 +157,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://glittery-starburst-034c85.netlify.app'
+                CI_ENVIRONMENT_URL = 'https://gleaming-rugelach-b1a3a2.netlify.app'
             }
 
             steps {
