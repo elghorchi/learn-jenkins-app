@@ -15,6 +15,7 @@ pipeline {
                     docker build -t my-playwright .
                 '''
             }
+        }
 
          stage('Build') {
             agent {
